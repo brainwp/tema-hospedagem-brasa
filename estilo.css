@@ -693,6 +693,16 @@ display: none;
    margin: 0 0 3% 2%;
 }
 
+#dados-footer a{
+	color: #7ED2DA;
+	text-decoration: none;
+}
+
+#dados-footer a:hover{
+	font-weight: 600;
+}
+
+
 #licenca-footer {
 	margin: 0 15px 0 15px;
 }
