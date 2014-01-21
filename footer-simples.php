@@ -21,7 +21,7 @@
     	<hr />
 		<div id="dados-footer">
 			<div id="descricao-footer"><?php bloginfo( 'name'); ?> - <?php echo date('Y'); ?></div>	   
-			<div id="licenca-footer"><?php echo stripslashes (get_option('mo_licenca')); ?><a class="logo-cc" href="http://creativecommons.org/licenses/by-nc-sa/3.0/br/" target="_blank" alt="Sob uma licença Creative Commons">cc</a></div>
+			<div id="licenca-footer"><a href="<?php echo stripslashes (get_option('mo_termos_url')); ?>" target="_self">Termos de Uso</a> | <a href="<?php echo stripslashes (get_option('mo_privacy_url')); ?>" target="_self">Pol&iacute;tica de Privacidade</a></div>
 		</div>
 		<div id="essencial">
 			<div id="logo-wordpress"><a href="http://brasa.art.br/sobre-wordpress/" target="_self" class="a-logo-wordpress"></a></div>

@@ -27,9 +27,15 @@ array( "name" => "Informa&ccedil;&otilde;es do Rodap&eacute;",
 array( "type" => "open"),
  
 
-array( "name" => "Licen&ccedil;a",
-	"desc" => "Adicione a Licen&ccedil;a de uso do conte&uacute;do do site",
-	"id" => $shortname."_licenca",
+array( "name" => "Url dos Termos de Uso",
+	"desc" => "Adicione a URL dos Termos de Uso do site",
+	"id" => $shortname."_termos_url",
+	"type" => "text",
+	"std" => ""),
+
+array( "name" => "Url da Politica de Privacidade",
+	"desc" => "Adicione a URL da Pol&iacute;tica de Privacidade do Site",
+	"id" => $shortname."_privacy_url",
 	"type" => "text",
 	"std" => ""),
 	
