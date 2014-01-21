@@ -1,4 +1,10 @@
 <?php
+
+if(!is_user_logged_in()) {
+               $url_login = home_url('/wp-admin');
+               wp_redirect( $url_login ); exit;
+   }
+
 /**
  * The Header for our theme.
  *
