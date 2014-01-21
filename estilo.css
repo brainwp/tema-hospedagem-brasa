@@ -81,9 +81,10 @@ p.destaque {
 
 
 #logo {
-max-width: 300px;
-float: right;
-margin: 3% 7% 1% 0;
+	float: left;
+    margin: 6% 6% 1%;
+    max-width: 700px;
+	min-height: 200px;
 }
 
 #site-title{
