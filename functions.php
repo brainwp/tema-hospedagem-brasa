@@ -8,7 +8,7 @@ add_post_type_support( 'page', 'excerpt' );
 
 /* Redefine the header image width and height ********************************************/
 define( 'HEADER_IMAGE_WIDTH', apply_filters( 'twentyeleven_header_image_width', 700 ) );
-define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'twentyeleven_header_image_height', 200 ) );
+define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'twentyeleven_header_image_height', 250 ) );
 
 // Remove o MetaBox Format dos Posts
 add_action( 'admin_menu', 'remove_meta_boxes' );
