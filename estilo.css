@@ -13,14 +13,6 @@ body.page {
 
 }
 
-body.home {
-
-	background: url("images/bg-ao-meio-final.jpg") #f3f1ee repeat scroll center top;
-	 margin: 0;
-	 padding: 0;
-
-}
-
 
 
 p {
@@ -657,7 +649,7 @@ display: none;
 
 #content-rodape {
 	margin: 0 auto;
-    max-width: 900px;
+    max-width: 800px;
     min-height: 140px;
 	color: #FFF;
 }
@@ -688,9 +680,9 @@ display: none;
 
 #dados-footer {
     float: left;
-    width: 48%;
+    width: 50%;
 	font-size: 1em;
-   margin: 0 0 3% 2%;
+   margin: 0 0 3% 0;
 }
 
 #dados-footer a{
@@ -714,7 +706,7 @@ display: none;
 #essencial {
 
 	float: left;
-    width: 48%;
+    width: 50%;
 
 }
 
